@@ -587,7 +587,7 @@ class EditEvent extends Component {
         this.setState({ loader: true });
         let formData = new FormData();
         // console.log(this.state.end_time, "dddd");
-        let ev_enddate = new Date(this.state.eventData.event_end_time);;
+        let ev_enddate = new Date(this.state.eventData.event_end_time);
         let endDate = 
         this.dateFormat(ev_enddate)  +
           " " +

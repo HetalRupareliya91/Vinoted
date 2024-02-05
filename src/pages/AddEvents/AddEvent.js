@@ -42,7 +42,7 @@ class AddEvent extends Component {
       },
       text: "",
       address: "",
-      end_time: "",
+      event_end_time: "",
       map_url: "",
       fileList: [],
       date9: "",
@@ -353,7 +353,7 @@ class AddEvent extends Component {
         setTimeout(() => {
           this.setState({ outer_bar: false });
         }, 1000);
-      } else if (!this.state.end_time) {
+      } else if (!this.state.event_end_time) {
         if (this.state.outer_bar === true) {
           this.setState({ outer_bar: false });
         }
@@ -373,21 +373,25 @@ class AddEvent extends Component {
         }
         this.setState({ loader: true });
         let formData = new FormData();
+
+        let date = "";
+        if (this.state.date9) {
+          date =
+            this.state.eventData.date.replaceAll("/", "-") +
+            " " +
+            this.state.date9.toLocaleTimeString();
+        }
+        
+        let endDate = "";
+        if (this.state.event_end_time) {
+          endDate =
+            this.state.eventData.date.replaceAll("/", "-") +
+            " " +
+            this.state.event_end_time.toLocaleTimeString();
+        }
+        
         for (const [key, value] of Object.entries(this.state.eventData)) {
-          let date = "";
-          if (this.state.date9) {
-            date =
-              this.state.eventData.date.replaceAll("/", "-") +
-              " " +
-              this.state.date9.toLocaleTimeString();
-          }
-          let endDate = "";
-          if (this.state.end_time) {
-            endDate =
-              this.state.eventData.date.replaceAll("/", "-") +
-              " " +
-              this.state.end_time.toLocaleTimeString();
-          }
+          
           // console.log(date, "<<<<<<", endDate, "<<<<submit to form");
           if (key === "date" && this.state.date9) {
             if (date.search("AM") > 0) {
@@ -397,8 +401,7 @@ class AddEvent extends Component {
             } else {
               formData.append("date", date);
             }
-          }
-          if (key === "event_end_time" && this.state.end_time) {
+          } else if (key === "event_end_time" && this.state.event_end_time) {
             if (endDate.search("AM") > 0) {
               formData.append("event_end_time", endDate.split(" AM")[0]);
             } else if (endDate.search("PM") > 0) {
@@ -1110,14 +1113,14 @@ class AddEvent extends Component {
                           </Form.Label>
                           <Calendar
                             id="time123"
-                            value={this.state.end_time}
-                            onChange={e => this.setState({ end_time: e.value })}
+                            value={this.state.event_end_time}
+                            onChange={e => this.setState({ event_end_time: e.value })}
                             timeOnly
                             hourFormat="24"
                           />
-                          {this.state.errors.end_time && (
+                          {this.state.errors.event_end_time && (
                             <p className="error-class-add-event">
-                              {this.state.errors.end_time}
+                              {this.state.errors.event_end_time}
                             </p>
                           )}
                         </Form.Group>

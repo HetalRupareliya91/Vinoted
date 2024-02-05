@@ -142,7 +142,6 @@ class EditProduct extends Component {
 	};
 
 	validateForm = () => {
-		debugger
 		let fields = this.state.fields;
 		let errors = {};
 		let errorClass = {};

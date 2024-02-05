@@ -76,12 +76,7 @@ class ForgotPassword extends Component {
       for (const [key, value] of Object.entries(this.state.user)) {
         formData.append(key, value);
       }
-      http
-        .post(
-          "auth/forgot-password",
-
-          formData
-        )
+      http.post("auth/forgot-password", formData)
         .then((response) => {
           if (response.code === 200) {
             let stateNew = { ...this.state };

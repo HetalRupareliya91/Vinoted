@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04d54b5f.chunk.css",
+    "main.js": "/static/js/main.2abe16cc.chunk.js",
+    "main.js.map": "/static/js/main.2abe16cc.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7cc9dfce.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7cc9dfce.js.map",
+    "static/css/2.693a77b7.chunk.css": "/static/css/2.693a77b7.chunk.css",
+    "static/js/2.1d8e99df.chunk.js": "/static/js/2.1d8e99df.chunk.js",
+    "static/js/2.1d8e99df.chunk.js.map": "/static/js/2.1d8e99df.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6b2dc727b6831db5816ea8206f8883f1.js": "/precache-manifest.6b2dc727b6831db5816ea8206f8883f1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.693a77b7.chunk.css.map": "/static/css/2.693a77b7.chunk.css.map",
+    "static/css/main.04d54b5f.chunk.css.map": "/static/css/main.04d54b5f.chunk.css.map",
+    "static/js/2.1d8e99df.chunk.js.LICENSE.txt": "/static/js/2.1d8e99df.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/SofiaProLightAz.8de2d0df.otf",
+    "static/media/primeicons.css": "/static/media/primeicons.b0f5d02f.eot",
+    "static/media/winery_login.png": "/static/media/winery_login.1f90d261.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7cc9dfce.js",
+    "static/css/2.693a77b7.chunk.css",
+    "static/js/2.1d8e99df.chunk.js",
+    "static/css/main.04d54b5f.chunk.css",
+    "static/js/main.2abe16cc.chunk.js"
+  ]
+}
