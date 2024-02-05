@@ -1,0 +1,181 @@
+@media only screen and (device-width: 768px) {
+  .col-md-3 {
+    width: 25% !important;
+  }
+  .profile-outer-card {
+    left: 5px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* For portrait layouts only */
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation: landscape) {
+  /* For landscape layouts only */
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1080px) {
+  .Loginform {
+    width: 80%;
+  }
+  .event-images {
+    height: 300px !important;
+  }
+  .event-group {
+    margin-left: 0px !important;
+  }
+
+  .button-group-outer-div {
+    padding-left: 10px !important;
+  }
+  .product-card-img {
+    height: 300px !important;
+  }
+  .chat-card-lists-user {
+    margin-top: 0px !important;
+  }
+  .profile-card-header-list {
+    margin-top: 0px !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .Loginform {
+    width: 90%;
+  }
+  .button-group-outer-div {
+    padding-left: 10px !important;
+  }
+  .event-images {
+    height: 300px !important;
+  }
+  .event-group {
+    margin-left: 0px !important;
+  }
+  .product-card-img {
+    height: 300px !important;
+  }
+  .profile-card-header-list {
+    margin-top: 0px !important;
+  }
+  .img-span {
+    width: 50% !important;
+  }
+  .chat-card-lists-user {
+    margin-top: 0px !important;
+  }
+  .text-span {
+    width: 50% !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .Loginform {
+    width: 90%;
+  }
+  .button-group-outer-div {
+    padding-left: 10px !important;
+  }
+  .profile-card-header-list {
+    margin-top: 0px !important;
+  }
+  .event-group {
+    margin-left: 0px !important;
+  }
+  .chat-card-lists-user {
+    margin-top: 0px !important;
+  }
+  .event-images {
+    height: 300px !important;
+  }
+  .product-card-img {
+    height: 300px !important;
+  }
+  .profile-outer-card {
+    left: 15px !important;
+  }
+  .img-span {
+    width: 50% !important;
+  }
+  .text-span {
+    width: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1080px) {
+  .resetpasswordform {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .resetpasswordform {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .resetpasswordform {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1080px) {
+  .signUp-form {
+    width: 80%;
+  }
+  /* .titlesection{
+  padding-top: 0;
+  background-size:1000px;
+  background-size: 800px;
+} */
+  .logoimage {
+    width: 250px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .signUp-form {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .signUp-form {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1080px) {
+  .forgetpasswordform {
+    width: 80%;
+  }
+  .MuiButtonGroup-root.MuiButtonGroup-contained {
+    width: 100% !important;
+  }
+  .p-menu.p-menu-overlay {
+    left: 140px !important;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+  .forgetpasswordform {
+    width: 90%;
+  }
+  .MuiButtonGroup-root.MuiButtonGroup-contained {
+    width: 100% !important;
+  }
+  .p-menu.p-menu-overlay {
+    left: 140px !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .forgetpasswordform {
+    width: 90%;
+  }
+
+  .MuiButtonGroup-root.MuiButtonGroup-contained {
+    width: 100% !important;
+  }
+
+  .p-menu.p-menu-overlay {
+    left: 140px !important;
+  }
+}

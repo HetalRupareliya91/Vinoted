@@ -1,0 +1,63 @@
+@import "./scss/auth";
+@import "./scss/product";
+@import "./scss/events";
+@import "./home";
+@import "./scss/loader";
+@import "./scss/navbar";
+@import "./scss/table";
+@import "./scss/notfound";
+@import "./scss/dialog";
+@import "./scss/notauth";
+@import "./scss/media";
+@import "./scss/snackbar";
+@import "./scss/chat";
+
+// webkit scroll
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(184, 181, 181) rgb(255, 255, 255);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+  //   background: rgb(185, 185, 185);
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(161, 161, 161);
+  border-radius: 20px;
+  border: 3px solid rgb(160, 159, 158);
+}
+
+.navbar .p-button {
+  background-color: transparent !important;
+  color: rgb(255, 255, 255) !important;
+  border: none !important;
+}
+
+.navbar .p-button:enabled:active {
+  border: none !important;
+}
+
+.navbar .p-button:focus {
+  box-shadow: none !important;
+}
+
+.header-toggle-icon {
+  font-size: 35px;
+  color: white !important;
+  float: right;
+}
+
+.header-span {
+  width: 78%;
+}
+
+.header-span .p-menu.p-menu-overlay {
+  left: 1111px;
+}

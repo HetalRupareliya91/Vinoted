@@ -1,0 +1,36 @@
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-menu {
+  width: 80% !important;
+  background-color: #bffffd !important;
+}
+.dropdown-item {
+  padding: auto 10px !important;
+}
+.dropdown-item.active {
+  background-color: #ffffff !important;
+  color: #1e2746 !important;
+}
+
+.p-menu {
+  top: 50px;
+}
+
+.user-name-header {
+  color: white;
+  float: right;
+  padding-top: 7px;
+  padding-right: 7px;
+}
+
+.user-name-after {
+  color: #bce978;
+}
+
+.bottom-class {
+  bottom: 7px;
+  // position: fixed;
+  // width: 100%;
+  // z-index: 99999;
+}

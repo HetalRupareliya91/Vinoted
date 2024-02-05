@@ -1,0 +1,38 @@
+.modal-content {
+	background-color: #1e2746;
+	color: #fff;
+	margin: 50px 0;
+	padding: 20px 40px;
+	border: none;
+}
+
+.modal-content button {
+	background-color: #e63946;
+	cursor: pointer;
+	padding: 5px 25px;
+	border-radius: 10px;
+	border: none;
+	margin-top: 10px;
+}
+
+.product-container {
+	font-size: 1.2em;
+	border-radius: 5px;
+	padding: 5px;
+	margin: 2px;
+}
+
+.product-card {
+	font-size: 0.85em;
+	padding: 15px;
+	box-shadow: 0 0 2px 0px rgb(188, 130, 255);
+	display: flex;
+	align-items: center;
+	flex: 1 0 100%;
+	border-radius: 15px;
+	margin: 5px;
+}
+
+.product-info p {
+	margin: 5px 0;
+}

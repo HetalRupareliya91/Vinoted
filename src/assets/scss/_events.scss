@@ -1,0 +1,371 @@
+.eventdetailbtn {
+  padding: 5px 50px;
+  border: none;
+  width: 50%;
+  font-size: 15px;
+  font-weight: 600 !important;
+}
+.eventCard {
+  width: 15rem;
+  height: 18rem;
+}
+.cardtitle {
+  color: #1d3557;
+}
+.cardText {
+  font-size: 14px;
+}
+.ant-tabs-tab-btn {
+  color: #ffffff;
+}
+.btn-secondary {
+  padding: 0 auto !important;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1080px) {
+  // .eventCard {
+  //   width: 22rem;
+  //   height: 17rem;
+  // }
+  // .cardtitle {
+  //   font-size: 15px;
+  // }
+  // .cardText {
+  //   font-size: 10px;
+  // }
+}
+
+// .MuiButtonGroup-groupedContainedHorizontal {
+//   width: 192px !important;
+// }
+.MuiButtonGroup-contained {
+  height: 38px !important;
+  font-size: 10px !important;
+}
+.MuiButtonGroup-groupedContainedPrimary:not(:last-child) {
+  width: 118px !important;
+  padding-left: 12px !important;
+  text-transform: capitalize !important;
+  font-size: 10px !important;
+}
+.button-group-outer-div {
+  padding-left: 0px !important;
+  top: 20px;
+}
+
+.my-event-edit-btn {
+  background-color: #1d3557;
+  width: 35%;
+  float: right;
+  position: relative;
+  left: 19px;
+  bottom: 18px;
+  cursor: pointer;
+}
+
+.event-images {
+  height: 140px;
+  object-fit: contain;
+}
+
+.presentevents-event-class {
+  background-color: white !important;
+  color: #1d3557 !important;
+}
+.futureevents-event-class {
+  background-color: white !important;
+  color: #1d3557 !important;
+}
+.pastevents-event-class {
+  background-color: white !important;
+  color: #1d3557 !important;
+}
+
+.event-detail-img {
+  height: 270px;
+  width: 400px;
+  border: 2px solid rgb(182, 180, 180);
+  border-radius: 15px;
+}
+.render-html-text {
+  padding-left: 0px !important;
+  color: white !important;
+}
+
+.render-html-text p span {
+  color: white !important;
+}
+
+.render-html-text p {
+  text-align: justify;
+}
+
+.multiselect-demo .p-multiselect {
+  min-width: 15rem;
+}
+
+.multiselect-demo
+  .multiselect-custom
+  .p-multiselect-label:not(.p-placeholder):not(.p-multiselect-items-label) {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+
+.multiselect-demo .multiselect-custom .country-item-value {
+  padding: 0.25rem 0.5rem;
+  border-radius: 3px;
+  display: inline-flex;
+  margin-right: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--primary-color-text);
+}
+
+.multiselect-demo .multiselect-custom .country-item-value img.flag {
+  width: 17px;
+}
+
+.p-multiselect.p-component.p-inputwrapper {
+  width: 100%;
+}
+
+.p-multiselect-panel .p-multiselect-header {
+  display: none;
+}
+
+.ant-picker {
+  height: 38px;
+}
+
+.p-calendar-timeonly {
+  width: 100%;
+  height: 38px;
+}
+
+.p-dropdown {
+  width: 100%;
+}
+
+.ql-picker-label {
+  color: white;
+}
+
+.ql-picker-label:hover {
+  color: #ffffff !important;
+}
+
+.ql-snow .ql-stroke {
+  stroke: white;
+}
+
+.ql-snow .ql-picker.ql-expanded .ql-picker-label .ql-stroke {
+  stroke: white;
+}
+
+.submitbtn-event {
+  background-color: #e63946 !important;
+  width: 100%;
+  color: #ffffff !important;
+  height: 40px;
+  font-size: 18px !important;
+  text-transform: capitalize !important;
+}
+
+.ql-editor {
+  color: #ffffff;
+}
+
+.location-search-input {
+  height: 35px;
+  border-radius: 9px;
+  padding: 18px;
+}
+
+.p-dropdown {
+  height: 40px;
+}
+
+.p-multiselect.p-component.p-inputwrapper {
+  height: 40px;
+}
+
+.p-disabled,
+.p-component:disabled {
+  opacity: 1.6 !important;
+}
+
+.p-card .p-card-content {
+  padding: 0px !important;
+}
+
+.p-card.p-component {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.card-save-action {
+  // background-color: #181f39 !important;
+  color: #181f39 !important;
+  font-size: 22px !important;
+  margin-left: 30px;
+  cursor: pointer;
+  text-transform: capitalize !important;
+}
+
+.card-delete-action {
+  color: #e63946 !important;
+  font-size: 22px !important;
+  margin-left: 30px;
+  cursor: pointer;
+  text-transform: capitalize !important;
+}
+
+.card-list-action {
+  color: #166b05 !important;
+  font-size: 22px !important;
+  cursor: pointer;
+  margin-left: 30px;
+  text-transform: capitalize !important;
+}
+
+.p-button-danger {
+  height: 30px;
+  background-color: #e63946 !important;
+  color: white !important;
+  text-transform: capitalize !important;
+}
+
+.modal-delete-action {
+  background-color: #e63946 !important;
+  color: white !important;
+}
+
+svg title {
+  color: black !important;
+}
+
+.hr-line {
+  border-top: 0.5px solid #dad6d6 !important;
+}
+
+.quill {
+  height: 200px;
+}
+
+.p-dropdown .p-dropdown-label {
+  padding-top: 3px !important;
+}
+
+.ant-tooltip.ant-tooltip-placement-top {
+  display: none !important;
+}
+
+.p-inputwrapper.p-inputwrapper-filled {
+  width: 8% !important;
+  background-color: #181f39 !important;
+  border: none !important;
+}
+
+.font-weight-light time {
+  color: black;
+}
+
+.event-second-paragraph {
+  margin-top: 8px !important;
+}
+
+.my-0.font-weight-light time {
+  color: white !important;
+}
+
+.event.my-0.font-weight-light time {
+  color: rgb(0, 0, 0) !important;
+}
+
+.p-card.p-component {
+  margin-right: 10px !important;
+}
+
+.wine-products-dropdown {
+  // max-width: 330px !important;
+}
+
+.event-top-buttons {
+  font-size: 10px !important;
+}
+
+.event-group {
+  margin-left: -13px;
+  margin-bottom: 10px !important;
+}
+
+.new-event-action {
+  background-color: #e63946 !important;
+  color: white !important;
+  font-size: 10px !important;
+  text-transform: capitalize !important;
+  margin-left: 10px !important;
+  width: 16%;
+}
+
+.p-card .p-card-title {
+  margin-bottom: 0px !important;
+  font-size: 18px !important;
+}
+
+.search-bar-events {
+  width: 100% !important;
+}
+
+.pagination-class-global {
+  margin-top: 28px;
+}
+.event-pagination-class {
+  width: 100%;
+}
+
+.somm-drop {
+  display: none;
+}
+
+._2iA8p44d0WZ-WqRBGcAuEV {
+  background: white !important;
+}
+
+// .dropdown-heading-value span {
+//   background: #e63946 !important;
+//   color: white;
+//   padding: 10px;
+//   border-radius: 10px;
+// }
+.invite-more-action {
+  background: #e63946 !important;
+  color: #ffffff !important;
+  text-transform: capitalize !important;
+  border: none !important;
+  float: right;
+}
+.MuiDialog-paperScrollPaper {
+  height: 400px;
+}
+.more-invite-somm {
+  background-color: #1e2746;
+}
+
+.more-invite-somm-header {
+  background-color: #181f39;
+  color: white;
+}
+.more-invite-somm-footer {
+  background-color: #181f39;
+  color: white;
+}
+.save-changes-action {
+  background-color: #e63946 !important;
+  color: #ffffff !important;
+  border: none !important;
+}
+
+.close-changes-action {
+  background-color: #5e0e15 !important;
+  color: #ffffff !important;
+  border: none !important;
+}

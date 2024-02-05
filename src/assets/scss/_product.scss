@@ -1,0 +1,172 @@
+.addProductForm {
+  background-color: #1e2746;
+  width: 80%;
+}
+
+@media only screen and (min-width: 993x) and (max-width: 1080px) {
+  .addProductForm {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 601x) and (max-width: 992px) {
+  .addProductForm {
+    width: 100%;
+  }
+}
+
+.winedetailpage {
+  padding-left: 20px;
+  padding-bottom: 30px;
+}
+.text {
+  width: 50%;
+}
+.products {
+  display: block;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 1080px) {
+}
+
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  .winedetailpage {
+    margin-top: 30px !important;
+  }
+  .text {
+    width: 100%;
+  }
+  .products {
+    margin-top: 30px;
+  }
+}
+
+.p-tabview .p-tabview-nav {
+  background: #1e2746 !important;
+}
+
+.p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  background: #1e2746 !important;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  background: #1e2746 !important;
+}
+
+.p-tabview .p-tabview-nav li .p-tabview-nav-link:not(.p-disabled):focus {
+  box-shadow: none !important;
+}
+
+.p-tabview .p-tabview-panels {
+  background-color: #1e2746 !important;
+}
+
+.productCard {
+  // width: 18rem;
+  // height: 22rem;
+}
+
+.edit-product-btn {
+  background-color: #ca5d5d !important;
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  width: 13%;
+  height: 27px;
+  text-transform: capitalize !important;
+}
+
+.delete-product-btn {
+  background-color: #8d0909 !important;
+  color: #ffffff;
+  width: 100%;
+  cursor: pointer;
+  width: 13%;
+  height: 27px;
+  text-transform: capitalize !important;
+}
+
+.price-info-tag {
+  color: #e77676;
+  font-size: 14.5px !important;
+  margin-top: 7px !important;
+}
+
+.price-tag-outer {
+  bottom: 10px;
+  right: 14px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  text-align: center;
+}
+
+.product-card-img {
+  height: 180px;
+  object-fit: contain;
+}
+
+.ql-editor p span {
+  color: #ffffff !important;
+}
+
+.user-profile-div {
+  padding-left: 0px !important;
+}
+
+.form-group .p-inputwrapper.p-inputwrapper-filled {
+  width: 100% !important;
+  background-color: #ffffff !important;
+}
+
+.product-search-input {
+  margin-top: 12px;
+}
+
+.selected-product {
+  height: 20px !important;
+  margin-top: 10px !important;
+}
+
+.delete-btn-div {
+  // bottom: 17px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.card-body-product {
+  padding-bottom: 0px !important;
+}
+
+.product-group {
+  margin-left: -13px;
+  margin-bottom: 10px !important;
+}
+
+.product-group .MuiButtonGroup-groupedContainedPrimary:not(:last-child) {
+  width: 90px !important;
+  padding-left: 12px !important;
+  text-transform: capitalize !important;
+  font-size: 14px !important;
+}
+
+.title-event-class {
+  background-color: white !important;
+  color: #1d3557 !important;
+}
+.type-event-class {
+  background-color: white !important;
+  color: #1d3557 !important;
+}
+.year-event-class {
+  background-color: white !important;
+  color: #1d3557 !important;
+}
+.country-event-class {
+  background-color: white !important;
+  color: #1d3557 !important;
+}
+
+.product-status {
+  background-color: green !important;
+  color: white !important;
+}

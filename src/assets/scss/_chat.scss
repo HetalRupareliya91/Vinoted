@@ -1,0 +1,129 @@
+.chat-card-lists-user {
+  background-color: #1e2746 !important;
+  max-height: 525px !important;
+  overflow: auto !important;
+  margin-top: -20px;
+}
+
+.user-name-text
+  .MuiListItemText-primary.MuiTypography-body1.MuiTypography-displayBlock {
+  color: white !important;
+  font-size: 15px !important;
+}
+
+.user-name-text p {
+  color: rgb(158, 153, 153) !important;
+  font-size: 12px !important;
+}
+
+.user-list-data {
+  cursor: pointer;
+}
+
+.rn-position-bnwqim {
+  position: inherit !important;
+}
+
+.chat-content {
+  height: 470px;
+}
+
+/* .rn-color-jwli3a {
+color: #8d9fb1;
+} */
+.rn-fontSize-10x49cs {
+  color: rgb(170, 170, 170);
+}
+.rn-backgroundColor-1niwhzg {
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: 600 !important;
+}
+
+.rn-color-1srvcxg {
+  color: #404f5e;
+}
+.rn-color-1j7ouym {
+  color: white;
+}
+
+.chat-message div h5 div div p {
+  font-size: 14px !important;
+}
+
+.chat-message div h5 div div p {
+  font-size: 14px !important;
+}
+
+.chat-content textarea,
+.rn-backgroundColor-14lw9ot,
+.rn-backgroundColor-ysccxm {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.rn-alignItems-obd0qt textarea {
+  background-color: transparent;
+}
+
+.profile-card-header-list {
+  height: 55px;
+  margin-top: -20px;
+  background-color: #181f39 !important;
+  border-bottom: 1px solid gray;
+  box-shadow: none !important;
+}
+
+.card-content-chat-profile {
+  padding-top: 0px !important;
+}
+.MuiList-root.MuiList-padding {
+  padding-top: 0px !important;
+}
+
+.profile-list-data {
+  padding-top: 0px !important;
+}
+.user-avtar {
+  height: 35px;
+  width: 35px;
+}
+
+.list-active {
+  background-color: #46596d !important;
+}
+
+.rn-backgroundColor-ysccxm {
+  background-color: #252d42;
+  border-radius: 6px;
+}
+
+.rn-color-1j7ouym {
+  color: black !important;
+  padding-top: 9px;
+  font-family: "FontAwesome";
+}
+
+.rn-color-1j7ouym::before {
+  content: "\f015";
+}
+
+.chat-input-user {
+  width: 100%;
+}
+.chat-input-inside {
+  width: 100%;
+}
+.online-badge .MuiBadge-badge {
+  background-color: #129a22 !important;
+}
+.MuiBadge-anchorOriginTopRightRectangle {
+  top: 3px !important;
+  right: 3px !important;
+}
+.online-badge-second .MuiBadge-badge {
+  background-color: transparent !important;
+}
+.count-badges .MuiBadge-badge {
+  position: initial !important;
+  background-color: #0a80ff !important;
+}

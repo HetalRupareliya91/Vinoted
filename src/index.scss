@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* h1,h2,h3,h4,h5,h6,p{
+  font-family: 'Rubik', sans-serif;
+} */
+.fontfamily {
+  font-family: "Rubik", sans-serif;
+}
+
+.is-invalid {
+  border-bottom: 1px solid red !important;
+}
+.error-class {
+  color: #e63946;
+  margin-bottom: 0px !important;
+  margin-top: -8px !important;
+  font-size: 14px;
+}
+
+.error-class-add-event {
+  color: #e63946;
+  margin-bottom: 0px !important;
+  margin-top: 4px !important;
+  font-size: 14px;
+}
+
+.ant-upload-list-picture-card .ant-upload-list-item-info::before {
+  z-index: -1 !important;
+}
+.p-button:focus {
+  box-shadow: none !important;
+}
+
+.profileimage {
+  border: 1px solid gray;
+  height: 150px;
+  width: 150px;
+}
+
+@import "./assets/index.scss";

@@ -1,0 +1,106 @@
+.table-outer-div {
+  background-color: #1e2746;
+  height: 400px;
+  width: 100%;
+}
+
+.table-outer-div .MuiDataGrid-root {
+  border: none !important;
+}
+
+.MuiDataGrid-cell {
+  border-bottom: 1px solid #444242 !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnsContainer {
+  border-bottom: 1px solid #444242 !important;
+}
+
+.MuiCheckbox-root {
+  color: #736e6e !important;
+}
+
+.MuiDataGrid-cell.MuiDataGrid-cellLeft {
+  color: rgb(150, 148, 148) !important;
+}
+
+.MuiDataGrid-cell.MuiDataGrid-cellRight {
+  color: rgb(150, 148, 148) !important;
+}
+.MuiDataGrid-colCellTitle {
+  color: white !important;
+}
+.MuiDataGrid-columnSeparator {
+  display: none !important;
+}
+.makeStyles-caption-2 {
+  color: white !important;
+}
+.MuiTablePagination-actions {
+  color: wheat;
+}
+
+.datatable-responsive-demo
+  .p-datatable-responsive-demo
+  .p-datatable-tbody
+  > tr
+  > td
+  .p-column-title {
+  display: none;
+}
+
+@media screen and (max-width: 40em) {
+  .datatable-responsive-demo
+    .p-datatable.p-datatable-responsive-demo
+    .p-datatable-thead
+    > tr
+    > th,
+  .datatable-responsive-demo
+    .p-datatable.p-datatable-responsive-demo
+    .p-datatable-tfoot
+    > tr
+    > td {
+    display: none !important;
+  }
+
+  .datatable-responsive-demo
+    .p-datatable.p-datatable-responsive-demo
+    .p-datatable-tbody
+    > tr
+    > td {
+    text-align: left;
+    display: block;
+    width: 100%;
+    float: left;
+    clear: left;
+    border: 0 none;
+  }
+
+  .datatable-responsive-demo
+    .p-datatable.p-datatable-responsive-demo
+    .p-datatable-tbody
+    > tr
+    > td
+    .p-column-title {
+    padding: 0.4rem;
+    min-width: 30%;
+    display: inline-block;
+    margin: -0.4em 1em -0.4em -0.4rem;
+    font-weight: bold;
+  }
+
+  .datatable-responsive-demo
+    .p-datatable.p-datatable-responsive-demo
+    .p-datatable-tbody
+    > tr
+    > td:last-child {
+    border-bottom: 1px solid var(--surface-d);
+  }
+}
+
+.dashboard-events-table {
+  background-color: #1e2746 !important;
+}
+.table-second-card {
+  border: none !important;
+}
