@@ -403,6 +403,13 @@ class EditEvent extends Component {
     stateNew.text = value;
     this.setState(stateNew);
   };
+  
+	onCountryChange = e => {
+		let stateNew = { ...this.state };
+		stateNew.fields.country = "value";
+		stateNew.selectedCountry = e.value;
+		this.setState(stateNew);
+	};
 
   handleMapChange = (address) => {
     this.setState({ address });
@@ -1137,6 +1144,7 @@ class EditEvent extends Component {
                           <Dropdown
                             value={this.state.selectedCountry}
                             options={this.state.countries}
+														onChange={this.onCountryChange}
                             optionLabel="name"
                             className={
                               "form-control " +

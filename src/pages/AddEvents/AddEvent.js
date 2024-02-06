@@ -205,6 +205,13 @@ class AddEvent extends Component {
     return formIsValid;
   };
 
+	onCountryChange = e => {
+		let stateNew = { ...this.state };
+		stateNew.fields.country = "value";
+		stateNew.selectedCountry = e.value;
+		this.setState(stateNew);
+	};
+
   disabledDate(current) {
     return current && current.valueOf() < Date.now();
   }
@@ -1208,6 +1215,7 @@ class AddEvent extends Component {
                           <Dropdown
                             value={this.state.selectedCountry}
                             options={this.state.countries}
+														onChange={this.onCountryChange}
                             optionLabel="name"
                             className={
                               "form-control " +
